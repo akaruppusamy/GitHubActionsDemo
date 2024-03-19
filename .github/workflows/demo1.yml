@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: new-steps
-      - run: echo "Hello World!"
+        run: echo "Hello World!"
       - run: node --version
       - run: npm --version
